@@ -15,6 +15,7 @@ Local 개발환경
  - Netbean 상단메뉴 > Tools > Plugins
    - Add Plugins 버튼 클릭후 NodeJS Plugin File 열기
  - NodeJS Plugin 설치
+ - Netbean 환경설정에서 npm, node, express 경로 설정
 
 #2. Git Clone [프로젝트 다운로드]
  - Netbean 상단메뉴 >Team > Git > Clone
