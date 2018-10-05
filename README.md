@@ -11,6 +11,6 @@ Local 개발환경
 
 Netbean 환경설정
  - NodeJS Plugin File Download
-   URL : http://plugins.netbeans.org/plugin/36653/nodejs
+   - URL : http://plugins.netbeans.org/plugin/36653/nodejs
  - Netbean Top Menu > Tools > Plugins
    
