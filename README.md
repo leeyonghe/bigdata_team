@@ -9,4 +9,8 @@ Local 개발환경
  - Node : v10.11.0
  - express : 4.16.0
 
-환경설정
+Netbean 환경설정
+ - NodeJS Plugin File Download
+   URL : http://plugins.netbeans.org/plugin/36653/nodejs
+ - Netbean Top Menu > Tools > Plugins
+   
