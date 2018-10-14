@@ -8,6 +8,11 @@ Local 개발환경
  - npm : 6.4.1
  - Node : v10.11.0
  - express : 4.16.0
+ 
+사용된 기술
+ - Bootstrap (https://startbootstrap.com/template-categories/all/)
+ - D3.js
+ - 네이버 지도
 
 #1. Netbean 환경설정
  - NodeJS Plugin File Download
