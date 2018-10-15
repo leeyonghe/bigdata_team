@@ -1,4 +1,4 @@
-# bigdata_team
+# 빅데이터 아카데미 16기 1조
 
 Local 개발환경
 
