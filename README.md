@@ -30,6 +30,7 @@ Local 개발환경
  
 #3. 프로젝트 생성 완료
  - ScreenShot : https://github.com/leeyonghe/bigdata_team/blob/master/ScreenShot/screenshot.png
+ 
 #4. 실행
  - http://localhost:3000
  
