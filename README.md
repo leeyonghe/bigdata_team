@@ -30,6 +30,9 @@ Local 개발환경
  
 #3. 프로젝트 생성 완료
 
+#4. 실행
+ - http://localhost:3000/
+ 
 # 이슈
  - 소스 Check-Out 후 서버 실행시 에러가 발생할 경우
    - node_modules 폴더 및 파일 삭제
