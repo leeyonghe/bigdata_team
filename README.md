@@ -37,8 +37,4 @@ Local 개발환경
 4. 브라우저 실행
  - http://localhost:3000
  ![screenshot_20171221-151714](https://github.com/leeyonghe/bigdata_team/blob/master/ScreenShot/screenshot2.png)
- 
-# 이슈
- - 소스 Check-Out 후 서버 실행시 에러가 발생할 경우
-   - node_modules 폴더 및 파일 삭제
-   - npm install 실행
+
