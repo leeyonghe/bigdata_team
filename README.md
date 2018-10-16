@@ -33,7 +33,7 @@ Local 개발환경
 #3. 프로젝트 생성 완료
  ![screenshot_20171221-151714](https://github.com/leeyonghe/bigdata_team/blob/master/ScreenShot/screenshot.png)
  
-#4. 실행
+#4. 브라우저 실행
  - http://localhost:3000
  
 # 이슈
