@@ -11,8 +11,11 @@ Local 개발환경
  
 사용된 기술
  - Bootstrap (https://startbootstrap.com/template-categories/all/)
+   - Bootstrap 4
  - D3.js
+   - 5.7.0
  - 네이버 지도
+   - URL : https://navermaps.github.io/maps.js/
  
 # 개발환경 설정
 
