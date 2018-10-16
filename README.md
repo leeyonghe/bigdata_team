@@ -31,7 +31,7 @@ Local 개발환경
  - 다음 > 다음 > 완료 클릭
  
 #3. 프로젝트 생성 완료
- - ScreenShot : https://github.com/leeyonghe/bigdata_team/blob/master/ScreenShot/screenshot.png
+ ![screenshot_20171221-151714](https://github.com/leeyonghe/bigdata_team/blob/master/ScreenShot/screenshot.png)
  
 #4. 실행
  - http://localhost:3000
