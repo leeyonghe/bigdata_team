@@ -349,250 +349,94 @@
 var HOME_PATH = window.HOME_PATH || '.';
 
 var map = new naver.maps.Map(document.getElementById('map'), {
-    zoom: 11,
-    center: new naver.maps.LatLng(37.3614483, 129.1114883)
+    zoom: 5,
+    center: new naver.maps.LatLng(36.544656,127.254419)
 });
 
 var latlngs = [
     new naver.maps.LatLng(
-127.254419,
-36.544656
+36.544656,
+127.254419
 ),
 new naver.maps.LatLng(
-127.254419,
-36.544656
+36.7329357,
+127.168869
 ),
 new naver.maps.LatLng(
-127.168869,
-36.7329357
+36.4949698,
+127.2104243
 ),
 new naver.maps.LatLng(
-127.168869,
-36.7329357
+36.689997,
+127.205197
 ),
 new naver.maps.LatLng(
-127.168869,
-36.7329357
+36.421092,
+127.29797
 ),
 new naver.maps.LatLng(
-127.168869,
-36.7329357
+36.5349721,
+127.3329252
 ),
 new naver.maps.LatLng(
-127.2104243,
-36.4949698
+36.4191233,
+127.2782615
 ),
 new naver.maps.LatLng(
-127.2104243,
-36.4949698
+36.4515734,
+127.2761834
 ),
 new naver.maps.LatLng(
-127.205197,
-36.689997
+36.5335834,
+127.3553564
 ),
 new naver.maps.LatLng(
-127.205197,
-36.689997
+36.6832445,
+127.2651661
 ),
 new naver.maps.LatLng(
-127.29797,
-36.421092
+36.5273457,
+127.3736315
 ),
 new naver.maps.LatLng(
-127.29797,
-36.421092
+36.6737314,
+127.3022245
 ),
 new naver.maps.LatLng(
-127.29797,
-36.421092
+36.6551672,
+127.1875001
 ),
 new naver.maps.LatLng(
-127.29797,
-36.421092
+36.5549792,
+127.2210287
 ),
 new naver.maps.LatLng(
-127.3329252,
-36.5349721
+36.577293,
+127.2923329
 ),
 new naver.maps.LatLng(
-127.3329252,
-36.5349721
+36.5396956,
+127.339132
 ),
 new naver.maps.LatLng(
-127.3329252,
-36.5349721
+36.478379,
+127.313469
 ),
 new naver.maps.LatLng(
-127.2782615,
-36.4191233
+36.6656413,
+127.2458989
 ),
 new naver.maps.LatLng(
-127.2782615,
-36.4191233
+36.5292662,
+127.3516421
 ),
 new naver.maps.LatLng(
-127.2761834,
-36.4515734
+36.6253991,
+127.2899782
 ),
 new naver.maps.LatLng(
-127.2761834,
-36.4515734
-),
-new naver.maps.LatLng(
-127.2761834,
-36.4515734
-),
-new naver.maps.LatLng(
-127.2761834,
-36.4515734
-),
-new naver.maps.LatLng(
-127.2761834,
-36.4515734
-),
-new naver.maps.LatLng(
-127.2761834,
-36.4515734
-),
-new naver.maps.LatLng(
-127.2761834,
-36.4515734
-),
-new naver.maps.LatLng(
-127.2761834,
-36.4515734
-),
-new naver.maps.LatLng(
-127.3553564,
-36.5335834
-),
-new naver.maps.LatLng(
-127.2651661,
-36.6832445
-),
-new naver.maps.LatLng(
-127.2651661,
-36.6832445
-),
-new naver.maps.LatLng(
-127.3736315,
-36.5273457
-),
-new naver.maps.LatLng(
-127.3736315,
-36.5273457
-),
-new naver.maps.LatLng(
-127.3022245,
-36.6737314
-),
-new naver.maps.LatLng(
-127.3022245,
-36.6737314
-),
-new naver.maps.LatLng(
-127.1875001,
-36.6551672
-),
-new naver.maps.LatLng(
-127.1875001,
-36.6551672
-),
-new naver.maps.LatLng(
-127.2210287,
-36.5549792
-),
-new naver.maps.LatLng(
-127.2210287,
-36.5549792
-),
-new naver.maps.LatLng(
-127.2923329,
-36.577293
-),
-new naver.maps.LatLng(
-127.2923329,
-36.577293
-),
-new naver.maps.LatLng(
-127.2923329,
-36.577293
-),
-new naver.maps.LatLng(
-127.2923329,
-36.577293
-),
-new naver.maps.LatLng(
-127.339132,
-36.5396956
-),
-new naver.maps.LatLng(
-127.339132,
-36.5396956
-),
-new naver.maps.LatLng(
-127.313469,
-36.478379
-),
-new naver.maps.LatLng(
-127.313469,
-36.478379
-),
-new naver.maps.LatLng(
-127.313469,
-36.478379
-),
-new naver.maps.LatLng(
-127.313469,
-36.478379
-),
-new naver.maps.LatLng(
-127.313469,
-36.478379
-),
-new naver.maps.LatLng(
-127.313469,
-36.478379
-),
-new naver.maps.LatLng(
-127.2458989,
-36.6656413
-),
-new naver.maps.LatLng(
-127.2458989,
-36.6656413
-),
-new naver.maps.LatLng(
-127.3516421,
-36.5292662
-),
-new naver.maps.LatLng(
-127.3516421,
-36.5292662
-),
-new naver.maps.LatLng(
-127.2899782,
-36.6253991
-),
-new naver.maps.LatLng(
-127.2899782,
-36.6253991
-),
-new naver.maps.LatLng(
-127.2899782,
-36.6253991
-),
-new naver.maps.LatLng(
-127.2899782,
-36.6253991
-),
-new naver.maps.LatLng(
-127.329707,
-36.4801148
-),
-new naver.maps.LatLng(
-127.329707,
-36.4801148
+36.4801148,
+127.329707
 ),
 
 ];
